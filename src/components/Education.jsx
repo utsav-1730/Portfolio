@@ -13,7 +13,7 @@ const EducationSection = () => {
   const educationData = [
     {
       degree: "Higher Secondary Certificate",
-      school: "Ashadeep IIT",
+      school: "Ashadeep IIT (Surat, GJ)",
       mascot: "📘",
       year: "2019-2021",
       achievements: ["Subject: Mathematics, Physics, Chemistry, Computer"],
@@ -25,9 +25,9 @@ const EducationSection = () => {
     },
     {
       degree: "Advance Diploma",
-      school: "George Brown College",
+      school: "George Brown College (Toronto, ON)",
       mascot: "📗",
-      year: "2021-2025",
+      year: "2023-2025",
       achievements: ["Subject: Computer Programming and Analysis"],
       skills: ["HTML, CSS",
   "JavaScript (Node.js, Next.js, React.js, Vue.js, Angular, React Native, TypeScript)",

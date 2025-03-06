@@ -7,10 +7,10 @@ const AboutMe = () => {
     >
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8 justify-center">
         <div className="content max-w-2xl">
-          <h2 className="text-[#4ECCA3] text-2xl font-bold mb-6">WHO I AM?</h2>
+          <h2 className="text-[#4ECCA3] text-2xl font-bold mb-6">WHO AM I?</h2>
           <p className="text-lg leading-relaxed">
-          Hello! I’m Utsav Changani, a dedicated Computer Programmer & AI Developer with a passion for building intelligent, user-centric applications. Graduating from George Brown College and backed by 3+ years of full-stack development experience, I’ve co-founded innovative projects like BEGLZ AI—a highly accurate meal scanning app—and VitaE, an NLP-powered resume builder deployed to over 500 users.
-            I’m continuously expanding my expertise in advanced AI research, exploring areas such as recursive neural network optimization and emergent behaviors in large language models. Driven by a commitment to innovation and lifelong learning, I strive to create robust digital solutions that push the boundaries of technology.
+          Hello! I’m Utsav Changani, a Computer Programmer & AI Developer with 3+ years of full-stack development experience, passionate about creating intelligent, user-centric applications. I've co-founded projects like BEGLZ AI and VitaE, leveraging advanced AI techniques to develop innovative solutions, 
+          while continuously expanding my expertise in machine learning, NLP, and AI research.
 
           </p>
         </div>

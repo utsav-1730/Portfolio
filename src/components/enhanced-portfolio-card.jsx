@@ -185,14 +185,7 @@ export default function EnhancedPortfolioCard() {
                   transition={{ type: "spring", stiffness: 300 }}>
                   <Code className="w-8 h-8 text-gray-200" />
                 </motion.div>
-                <div>
-                  <h3 className="font-semibold text-xl text-gray-100">
-                    Interaction Designer
-                  </h3>
-                  <p className="text-lg text-gray-400">
-                    Critical Mass / On-Site Apple
-                  </p>
-                </div>
+                
               </motion.div>
             </motion.div>
           </Card>
