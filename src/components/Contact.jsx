@@ -44,12 +44,14 @@ export default function Contact() {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault();  // Prevent the form from submitting normally and causing a page reload
 
     if (!validateForm()) {
       setStatus("Please fill in all required fields correctly.");
       return;
     }
+
+    setStatus("Sending...."); // Indicate sending status
 
     // Create a new FormData object to send to Web3Forms API
     const form = new FormData();
@@ -60,7 +62,6 @@ export default function Contact() {
     form.append("message", formData.message);
 
     try {
-      // Send form data to Web3Forms API
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         body: form,
@@ -68,7 +69,7 @@ export default function Contact() {
 
       const result = await response.json();
 
-      if (response.ok) {
+      if (response.ok && result.success) {
         setStatus("Message sent successfully!");
         setFormData({
           name: "",
@@ -87,10 +88,7 @@ export default function Contact() {
   };
 
   return (
-    <main
-      className="pt-20 lg:pt-[0rem] bg-gradient-to-b from-[#020617] via-[#0a0f1f] to-[#000D1A]/90
- text-white min-h-screen"
-    >
+    <main className="pt-20 lg:pt-[0rem] bg-gradient-to-b from-[#020617] via-[#0a0f1f] to-[#000D1A]/90 text-white min-h-screen">
       <section className="hero min-h-screen flex items-center relative px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
