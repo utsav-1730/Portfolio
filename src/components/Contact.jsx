@@ -44,14 +44,12 @@ export default function Contact() {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();  // Prevent the form from submitting normally and causing a page reload
+    e.preventDefault();
 
     if (!validateForm()) {
       setStatus("Please fill in all required fields correctly.");
       return;
     }
-
-    setStatus("Sending...."); // Indicate sending status
 
     // Create a new FormData object to send to Web3Forms API
     const form = new FormData();
@@ -69,7 +67,7 @@ export default function Contact() {
 
       const result = await response.json();
 
-      if (response.ok && result.success) {
+      if (response.ok) {
         setStatus("Message sent successfully!");
         setFormData({
           name: "",
