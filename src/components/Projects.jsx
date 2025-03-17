@@ -4,6 +4,7 @@ import Beglz from "../assets/images/olova.png";
 import vitaeImage from "../assets/images/VitaE.png"; 
 import Gemini from "../assets/images/Gemini.png";
 import image from "../assets/images/image.png";
+import preview from "../assets/images/Preview.png";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const MacOsButtons = () => (
@@ -26,6 +27,17 @@ const ProjectShowcase = () => {
         demo: "https://www.beglz.com/",
       },
       image: Beglz,
+      featured: true,
+    },
+    {
+      title: "Ingestrax - AI-Powered Calorie & Nutrition Tracker",
+      description:
+        "Ingestrax is an AI-powered calorie and nutrition-tracking application that leverages machine learning and food recognition to provide personalized meal recommendations, detailed macro/micronutrient breakdowns, and health insights.",
+      tags: ["AI", "NLP", "Health Tech", "Calorie Tracker"],
+      links: {
+        github: "https://github.com/utsav-1730/Ingestrax.git",
+      },
+      image: preview, 
       featured: true,
     },
     {

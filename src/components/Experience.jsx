@@ -57,17 +57,17 @@ const ExperienceSection = () => {
       icon: Network,
       title: "Sales Associate",
       company: "Walmart",
-      period: "2023 - 2025",
+      period: "2023 - Present",
       description:
-        "•	Effectively managed inventory by unloading, sorting, and stocking merchandise while ensuring accurate product placement for optimal store readiness. Demonstrated teamwork and multi-tasking in a fast-paced environment, keeping the backroom and sales floor organized to enhance efficiency. Took on leadership roles by assisting in training new associates and coordinating stock replenishment. Trained in power equipment operation, including Bravi Sprint, Stacker, and Walkie, to safely handle merchandise and maintain a well-stocked store.",
+        "•	Managed inventory by unloading, sorting, and stocking merchandise to ensure optimal product placement and store readiness. Demonstrated leadership and strong time management by training new associates, coordinating stock replenishment, and maintaining an organized backroom and sales floor. Proficient in safely operating power equipment (Bravi Sprint, Stacker, Walkie) in a fast-paced environment.",
     },
     {
       icon: Layers,
       title: "Data Analyst",
       company: "Laxmi Diamond Pvt. Ltd",
-      period: "Jan2022 -Oct2022",
+      period: "Jan 2022-Oct 2022",
       description:
-        "•	Managed and analyzed diamond inventory, supply chain, pricing, and market trends using SQL, Python, and data visualization tools to ensure data accuracy and operational efficiency. Uncovered key insights to optimize business processes, enhance data integrity, and streamline workflows. Played a crucial role in strategic decision-making by providing data-driven recommendations. Effectively supported operations and supply chain management, improving efficiency through data analysis and reporting.",
+        "•	Leveraged SQL and Python (Pandas, NumPy) to analyze diamond inventory and market trends for a ₹480M operation, boosting supply chain efficiency by 15%. Automated reporting to cut generation time by 30% for 243+ employees and built dynamic dashboards with Matplotlib and Seaborn to visualize insights from 200K+ data points for a leading diamond exporter.",
     },
    
   ];

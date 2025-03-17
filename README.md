@@ -14,20 +14,13 @@ Sure! Below is a **README.md** template tailored to your name and portfolio info
 </div>
 
  
-Welcome to my **portfolio website**! This site showcases my skills, experience, education, projects, and how to get in touch with me. It's built with **React** and **Vite** for a fast, modern web experience. You can explore my work, learn about my journey, and contact me directly.
+Welcome to my **portfolio website**! This site showcases my skills, experience, education, projects, and how to get in touch with me. It's built with **React** and **Vite** for a fast, modern web experience. You can explore my work, learn about my journey, and contact me dire
 
----
-
-## Demo
-
-![Portfolio Demo](https://i.postimg.cc/Dfr5jCQp/Screenshot-2025-01-02-120901.png)
-
----
 
 ## Live Preview
 
 Check out the live preview of the portfolio website here:  
-[**Live Demo**](https://codervai.vercel.app/)
+[**Live Demo**](https://utsavchangani.netlify.app/)
 ---
 ### 🎯 Project Structure
 ```bash
